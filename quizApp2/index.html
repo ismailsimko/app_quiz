@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Quiz App | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+</head>
+<body>
+    <div class="start_btn"><button>Başla</button></div>
+
+    <div class="info_box">
+        <div class="info-title"><span>Bazı kurallar</span></div>
+        <div class="info-list">
+            <div class="info">1. sadece<span> 15 saniyeniz </span>var.</div>
+            <div class="info">2.cevabınız seçildikten sonra geri alınamaz!.</div>
+            <div class="info">3. zaman geçtiğinde hiçbir seçeneği seçemezsiniz.</div>
+            <div class="info">4. Oyun oynarken Quiz'den çıkamazsınız.</div>
+            <div class="info">5. Doğru cevaplarınıza göre puan alacaksınız.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Çıkış</button>
+            <button class="restart">Devam</button>
+        </div>
+    </div>
+
+    <div class="quiz_box">
+        <header>
+            <div class="title">Tarih soruları</div>
+            <div class="timer">
+                <div class="time_left_txt">Süre</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+            </div>
+            <div class="option_list">
+            </div>
+        </section>
+
+        <footer>
+            <div class="total_que">
+            </div>
+            <button class="next_btn">Devam</button>
+        </footer>
+    </div>
+
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">Sınavı Bitirdin!</div>
+        <div class="score_text">
+        </div>
+        <div class="buttons">
+            <button class="replay">Tekrar</button>
+            <button class="exit">Çıkış</button>
+        </div>
+    </div>
+
+    <script src="questions.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+</html>
